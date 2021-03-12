@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './Button.css';
+import { Button } from './Button';
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "../styles/Navbar.css";
 
 function Navbar () {
   const [click, setClick] = useState(false);
@@ -40,6 +40,7 @@ function Navbar () {
                 Home
               </Link>
             </li>
+            {/* about page should include skills too */}
             <li className="nav-item">
               <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 About
@@ -50,7 +51,7 @@ function Navbar () {
                 Projects
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/skills" className="nav-links" onClick={closeMobileMenu}>
                 Skills
               </Link>
@@ -59,7 +60,7 @@ function Navbar () {
               <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
                 Contact
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/resume" className="nav-links" onClick={closeMobileMenu}>
                 Resume
