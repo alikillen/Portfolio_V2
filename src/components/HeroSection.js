@@ -7,9 +7,9 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       {/* video content here placeholder */}
-      <video src='/videos/video-2.mp4' autoPlay loop muted />
+      <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>Hi there</h1>
-      <p>I'm Ali</p>
+      <p>I'm Ali.</p>
       <div classsName='hero-btns'>
         <Button
           className='btns'
