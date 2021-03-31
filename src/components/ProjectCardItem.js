@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function CardItem(props) {
+function ProjectCardItem(props) {
   return (
     <>
       <li className='cards__item'>
@@ -9,7 +9,7 @@ function CardItem(props) {
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img
               src={props.src}
-              alt='placeholder Image'
+              alt='project background'
               className='cards__item__img'
             />
           </figure>
@@ -22,4 +22,4 @@ function CardItem(props) {
   );
 }
 
-export default CardItem;
+export default ProjectCardItem;
