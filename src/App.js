@@ -8,6 +8,8 @@ import About from "./pages/About.js";
 import Resume from "./pages/Resume.js";
 import Contact from "./pages/Contact.js";
 
+// hello this is a comment
+
 
 function App() {   
   return (
