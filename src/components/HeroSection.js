@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "./Button";
 import "../App.css"
 import "../styles/HeroSection.css"
+import herovideo from "../media/videos/video-2.mp4"
 
 
 // fix navbar onclick display!
@@ -9,7 +10,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       {/* video content here placeholder - need new video */}
-      <video src="../media/videos/video-2.mp4" autoPlay loop muted />
+      <video src= {herovideo} autoPlay loop muted />
       <h1>Hi there</h1>
       <p>I'm Ali.</p>
       <br></br>
