@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Placeholder subscription footer heading
         </p>
@@ -24,11 +24,11 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Placeholder sub</Button>
           </form>
         </div>
-      </section>
+      </section> */}
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Some links here</h2>
+            {/* <h2>Some links here</h2> */}
             <Link to='/about'>About</Link>
             <Link to='/projects'>Projects</Link>
             <Link to='/resume'>Resume</Link>

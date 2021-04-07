@@ -17,7 +17,7 @@
 }
 
 .about {
-  background-image: url("./media/Images/img-2.jpg");
+  background-image: url("./media/Images/code-image2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
 }
 
 .resume {
-  background-image: url("./media/Images/img-1.jpg");
+  background-image: url("./media/Images/code-image3.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 }
 
 .contact {
-  background-image: url("./media/Images/img-8.jpg");
+  background-image: url("./media/Images/code-image4.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -2,57 +2,85 @@ import React from "react";
 import "../styles/Cards.css";
 import CardItem from "./CardItem";
 
-import projectimage1 from "../media/Images/img-1.jpg"
-import projectimage2 from "../media/Images/img-2.jpg";
-import projectimage3 from "../media/Images/img-3.jpg";
-import projectimage4 from "../media/Images/img-4.jpg";
-import projectimage5 from "../media/Images/img-5.jpg";
-import projectimage6 from "../media/Images/img-6.jpg";
+import codeimage from "../media/Images/code-image.jpg"
+import codeimage2 from "../media/Images/code-image2.jpg"
+import codeimage3 from "../media/Images/code-image3.jpg";
+
+import codeimage4 from "../media/Images/code-image4.jpg";
+import codeimage5 from "../media/Images/code-image5.jpg";
+import codeimage6 from "../media/Images/code-image6.jpg";
 
 
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out my projects</h1>
+      <h1>Stuff I've made</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <div className='cards__items'>
             <CardItem
-              src={projectimage1}
-              text='Project 1'
-              label='Project1'
-              path='/about'
+              src={codeimage}
+              text='Dingo Software Internship'
+              // label='DingoInternship'
+              path='/DingoInternship'
             />
             <CardItem
-              src={projectimage2}
-              text='Project 2'
-              label='Project2'
-              path='/about'
+              src={codeimage2}
+              text='She Rydes eCommerce Website'
+              // label='SheRydes'
+              path='/MERNeCommerce'
             />
             <CardItem
-              src={projectimage3}
-              text='Project 3000'
-              label='Project3'
-              path='/about'
+              src={codeimage3}
+              text='CSS Art'
+              // label='CSSArt'
+              path='/CSSArt'
             />
             <CardItem
-              src={projectimage4}
-              text='Project 4'
-              label='Project4'
-              path='/about'
+              src={codeimage4}
+              text='Pixel Art'
+              // label='PixelArt'
+              path='/pixelart'
             />
             <CardItem
-              src={projectimage5}
-              text='Project 5'
-              label='Project5'
-              path='/about'
+              src={codeimage5}
+              text='Javascript Drumkit'
+              // label='JS Drumkit'
+              path='/javascriptdrumkit'
             />
             <CardItem
-              src={projectimage6}
-              text='Project 6'
-              label='Project6'
-              path='/about'
+              src={codeimage6}
+              text='Express Hackathon - Libro App'
+              // label='LibroApp'
+              path='/expresslibroapp'
+            />
+            <CardItem
+              src={codeimage2}
+              text='Javascript Hackathon - WelcomeBoard App'
+              // label='WelcomeBoard'
+              path='/JSHackathon'
+            />
+
+            <CardItem
+              src={codeimage3}
+              text='Ruby on Rails Marketplace App'
+              // label='RailsMarketplace'
+              path='/railsmarketplace'
+            />
+
+            <CardItem
+              src={codeimage4}
+              text='Portfolio V1'
+              // label='PortfolioV1'
+              path='/portfolioV1'
+            />
+
+            <CardItem
+              src={codeimage5}
+              text='Ruby Terminal App'
+              // label='rubyterminalapp'
+              path='/rubyterminalapp'
             />
           </div>
         </div>
