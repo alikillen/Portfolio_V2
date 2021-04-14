@@ -10,14 +10,18 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       {/* video content here placeholder - need new video */}
-      <video src= {codevideo} autoPlay loop muted />
-      <h1>Hi there</h1>
-      <p>I'm Ali.</p>
-      <p>I'm a junior full-stack web developer looking for my next challenge.</p>
-      <p>This website is currently under construction.</p>
+      <video className="hero-video" src={codevideo} autoPlay loop muted />
+      <div className='hero-text'>
+        <h1>Hi there</h1>
+        <p>I'm Ali.</p>
+        <p>
+          I'm a junior full-stack web developer looking for my next challenge.
+        </p>
+        <p>This website is currently under construction.</p>
+      </div>
       <br></br>
 
-{/* make the button functional or remove it - how to link to below cards section to scroll down to products? */}
+      {/* make the button functional or remove it - how to link to below cards section to scroll down to products? */}
       <div className='hero-btns'>
         <Button
           className='btns'

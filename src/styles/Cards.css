@@ -11,18 +11,24 @@ h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
-  width: 90%;
+  max-width: 100%;
+  width: 99%;
   margin: 0 auto;
+  overflow: scroll;
 }
 
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
+  height: 100%;
+  max-width: 100%;
 }
 
 .cards__items {
   margin-bottom: 24px;
+  /* height and width not initially specified */
+  height: 100%;
+  max-width: 100%;
 }
 
 .cards__item {
