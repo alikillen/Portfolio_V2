@@ -13,26 +13,32 @@ function Navbar() {
 
   return (
     <div className='Navbar'>
-      {isPageMobile ? (
-        <button
-          onClick={() => setShowLinks(!showLinks)}
-          className='burger-button'
+      {/* <div className='leftSide'> */}
+        {isPageMobile ? (
+          <div className='button-container'>
+            <button
+              onClick={() => setShowLinks(!showLinks)}
+              // className='burger-button'
+            >
+              <BurgerButton />
+            </button>
+          </div>
+        ) : (
+          ""
+        )}
+
+        {/* <div className='title-container'> */}
+        <Link
+          to='/'
+          className={isPageDesktop ? "nav-title-desktop" : "nav-title-mobile"}
         >
-          <BurgerButton />
-        </button>
-      ) : (
-        ""
-      )}
+          ALISON KILLEN
+          <i className='fas fa-laptop-code' />
+        </Link>
+        {/* </div> */}
+      {/* </div> */}
 
-      <Link
-        to='/'
-        className={isPageDesktop ? "nav-title-desktop" : "nav-title-mobile"}
-      >
-        ALISON KILLEN
-        <i className='fas fa-laptop-code' />
-      </Link>
-
-      <div className='leftSide'>
+      <div className='links-container'>
         <div
           className={isPageDesktop ? "links-desktop" : "links"}
           id={showLinks ? "buttonlinks" : ""}

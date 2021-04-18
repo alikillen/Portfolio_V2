@@ -2,10 +2,13 @@ import React from "react";
 import { Button } from "./Button";
 import "../styles/Footer.css";
 import { Link } from "react-router-dom";
-
+import { useMediaQuery } from "../helpers/MediaQueries";
 
 // fix social links, responsive wrapping
 function Footer() {
+  let isPageDesktop = useMediaQuery("(min-width: 880px)");
+  let isPageMobile = useMediaQuery("(max-width: 880px)");
+
   return (
     <div className='footer-container'>
       {/* <section className='footer-subscription'>
@@ -25,16 +28,15 @@ function Footer() {
           </form>
         </div>
       </section> */}
-      <div class='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            {/* <h2>Some links here</h2> */}
-            <Link to='/about'>About</Link>
-            <Link to='/projects'>Projects</Link>
-            <Link to='/resume'>Resume</Link>
-            <Link to='/contact'>Contact</Link>
-          </div>
-        </div>
+
+      <div
+        class={isPageDesktop ? "footer-links-desktop" : "footer-links-mobile"}
+      >
+        {/* <h2>Some links here</h2> */}
+        <Link to='/about'>About</Link>
+        <Link to='/projects'>Projects</Link>
+        <Link to='/resume'>Resume</Link>
+        <Link to='/contact'>Contact</Link>
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
