@@ -1,77 +1,86 @@
-import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import BurgerButton from "../components/BurgerButton";
+import { useMediaQuery } from "../helpers/MediaQueries";
+import "../App.css";
 import "../styles/Navbar.css";
 
-function Navbar () {
-  const [click, setClick] = useState(false);
-  const [button, setButton] =useState(true)
-  
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false)
+function Navbar() {
+  let isPageDesktop = useMediaQuery("(min-width: 880px)");
+  let isPageMobile = useMediaQuery("(max-width: 880px)");
 
-  const showButton = () => {
-    if(window.innerWidth <= 960) {
-      setButton(false)
-    } else {
-      setButton(true)
-    }
-  }
-
-    useEffect(() => {
-      showButton();
-    }, []);
-
-  window.addEventListener("resize", showButton)
+  const [showLinks, setShowLinks] = useState(false);
 
   return (
-    <>
-      <nav className="navbar">
-        <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
-            ALISON KILLEN <i className="fas fa-laptop-code" />
-          </Link>
-          <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
-          </div>
-          <ul className={click ? 'nav-menu-active' : "nav-menu"}>
-            <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            {/* about page should include skills too */}
-            <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>
-                Projects
-              </Link>
-            </li>
-            {/* <li className="nav-item">
-              <Link to="/skills" className="nav-links" onClick={closeMobileMenu}>
-                Skills
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
-                Contact
-              </Link>
-            </li> */}
-            <li className="nav-item">
-              <Link to="/resume" className="nav-links" onClick={closeMobileMenu}>
-                Resume
-              </Link>
-            </li>
-          </ul>
-          {button && <Button buttonStyle="btn--outline">Contact</Button>}
+    <div className='Navbar'>
+      {isPageMobile ? (
+        <button
+          onClick={() => setShowLinks(!showLinks)}
+          className='burger-button'
+        >
+          <BurgerButton />
+        </button>
+      ) : (
+        ""
+      )}
+
+      <Link
+        to='/'
+        className={isPageDesktop ? "nav-title-desktop" : "nav-title-mobile"}
+      >
+        ALISON KILLEN
+        <i className='fas fa-laptop-code' />
+      </Link>
+
+      <div className='leftSide'>
+        <div
+          className={isPageDesktop ? "links-desktop" : "links"}
+          id={showLinks ? "buttonlinks" : ""}
+        >
+          <a
+            className={
+              isPageMobile && !showLinks ? "hide-shop-kit-link" : "links"
+            }
+            href='/'
+          >
+            Home
+          </a>
+          <a
+            className={
+              isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
+            }
+            href='/about'
+          >
+            About
+          </a>
+          <a
+            className={
+              isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
+            }
+            href='/skills'
+          >
+            Skills
+          </a>
+          <a
+            className={
+              isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
+            }
+            href='/resume'
+          >
+            Resume
+          </a>
+          <a
+            className={
+              isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
+            }
+            href='/contact'
+          >
+            Contact
+          </a>
         </div>
-      </nav>  
-    </>
-  )
+      </div>
+    </div>
+  );
 }
 
-export default Navbar
+export default Navbar;
