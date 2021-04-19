@@ -17,13 +17,13 @@ function Cards() {
             />
             <CardItem
               src='../Images/img-7.jpg'
-              text='Project 2'
+              text='Project 8882'
               label='Project2'
               path='/projects'
             />
             <CardItem
               src='../Images/img-8.jpg'
-              text='Project 3000'
+              text='Project 31111'
               label='Project3'
               path='/projects'
             />
