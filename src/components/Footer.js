@@ -49,7 +49,7 @@ function Footer() {
             <Link
               class='social-icon-link twitter'
               to='/https://twitter.com/alikillenit'
-              // target='_blank'
+              target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter'></i>
@@ -57,7 +57,7 @@ function Footer() {
             <Link
               class='social-icon-link Linkedin'
               to='/https://www.linkedin.com/in/alison-killen-she-her-2327a059/'
-              // target='_blank'
+              target='_blank'
               aria-label='Linkedin'
             >
               <i class='fab fa-linkedin'></i>
@@ -65,7 +65,7 @@ function Footer() {
             <Link
               class='social-icon-link medium'
               to='/https://medium.com/@alisoneme1994'
-              // target='_blank'
+              target='_blank'
               aria-label='Medium'
             >
               <i class='fab fa-medium'></i>
