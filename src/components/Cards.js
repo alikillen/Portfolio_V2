@@ -22,64 +22,64 @@ function Cards() {
             <CardItem
               src={codeimage}
               text='Dingo Software Internship'
-              // label='DingoInternship'
+              label='DingoInternship'
               path='/DingoInternship'
             />
             <CardItem
               src={codeimage2}
               text='She Rydes eCommerce Website'
-              // label='SheRydes'
+              label='SheRydes'
               path='/MERNeCommerce'
             />
             <CardItem
               src={codeimage3}
               text='CSS Art'
-              // label='CSSArt'
+              label='CSSArt'
               path='/CSSArt'
             />
             <CardItem
               src={codeimage4}
               text='Pixel Art'
-              // label='PixelArt'
+              label='PixelArt'
               path='/pixelart'
             />
             <CardItem
               src={codeimage5}
               text='Javascript Drumkit'
-              // label='JS Drumkit'
+              label='JS Drumkit'
               path='/javascriptdrumkit'
             />
             <CardItem
               src={codeimage6}
               text='Express Hackathon - Libro App'
-              // label='LibroApp'
+              label='LibroApp'
               path='/expresslibroapp'
             />
             <CardItem
               src={codeimage2}
               text='Javascript Hackathon - WelcomeBoard App'
-              // label='WelcomeBoard'
+              label='WelcomeBoard'
               path='/JSHackathon'
             />
 
             <CardItem
               src={codeimage3}
               text='Ruby on Rails Marketplace App'
-              // label='RailsMarketplace'
+              label='RailsMarketplace'
               path='/railsmarketplace'
             />
 
             <CardItem
               src={codeimage4}
               text='Portfolio V1'
-              // label='PortfolioV1'
+              label='PortfolioV1'
               path='/portfolioV1'
             />
 
             <CardItem
               src={codeimage5}
               text='Ruby Terminal App'
-              // label='rubyterminalapp'
+              label='rubyterminalapp'
               path='/rubyterminalapp'
             />
           </div>

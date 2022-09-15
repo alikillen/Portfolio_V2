@@ -38,51 +38,61 @@ function Navbar() {
         {/* </div> */}
       {/* </div> */}
 
-      <div className='links-container'>
-        <div
-          className={isPageDesktop ? "links-desktop" : "links"}
-          id={showLinks ? "buttonlinks" : ""}
-        >
-          <a
-            className={
-              isPageMobile && !showLinks ? "hide-shop-kit-link" : "links"
-            }
-            href='/'
+      <Link
+        to='/'
+        className={isPageDesktop ? "nav-title-desktop" : "nav-title-mobile"}
+      >
+        ALISON KILLEN
+        <i className='fas fa-laptop-code' />
+      </Link>
+
+      <div className='leftSide'>
+        <div className='buttonLinksContainer'>
+          <div
+            className={isPageDesktop ? "links-desktop" : "links"}
+            id={showLinks ? "buttonlinks" : ""}
           >
-            Home
-          </a>
-          <a
-            className={
-              isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
-            }
-            href='/about'
-          >
-            About
-          </a>
-          <a
-            className={
-              isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
-            }
-            href='/skills'
-          >
-            Skills
-          </a>
-          <a
-            className={
-              isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
-            }
-            href='/resume'
-          >
-            Resume
-          </a>
-          <a
-            className={
-              isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
-            }
-            href='/contact'
-          >
-            Contact
-          </a>
+            <a
+              className={
+                isPageMobile && !showLinks ? "hide-shop-kit-link" : "links"
+              }
+              href='/'
+            >
+              Home
+            </a>
+            <a
+              className={
+                isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
+              }
+              href='/about'
+            >
+              About
+            </a>
+            <a
+              className={
+                isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
+              }
+              href='/skills'
+            >
+              Skills
+            </a>
+            <a
+              className={
+                isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
+              }
+              href='/resume'
+            >
+              Resume
+            </a>
+            <a
+              className={
+                isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
+              }
+              href='/contact'
+            >
+              Contact
+            </a>
+          </div>
         </div>
       </div>
     </div>

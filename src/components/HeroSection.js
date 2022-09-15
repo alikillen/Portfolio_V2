@@ -15,21 +15,22 @@ function HeroSection() {
         <h1>Hi there</h1>
         <p>I'm Ali.</p>
         <p>
-          I'm a junior full-stack web developer looking for my next challenge.
+          I'm a full-stack web developer. I like working across backend and frontend, and I have experience with React, Node, C#, MongoDB, SQL, AWS, Azure, and more.
         </p>
-        <p>This website is currently under construction.</p>
+        <div className='hero-btns'>
+          <Button
+            className='btns'
+            buttonStyle='btn--outline'
+            buttonSize='btn--large'
+          >
+            Check out my work.
+          </Button>
+        </div>
       </div>
       <br></br>
 
       {/* make the button functional or remove it - how to link to below cards section to scroll down to products? */}
-      <div className='hero-btns'>
-        <Button
-          className='btns'
-          // buttonStyle='btn--outline'
-          // buttonSize='btn--large'
-        >
-          Check out my work.
-        </Button>
+ 
 
         {/* <Button
           className='btns'
@@ -38,7 +39,7 @@ function HeroSection() {
         >
           Some stuff here. <i className="far fa-play-circle" />
         </Button> */}
-      </div>
+      
     </div>
   );
 }
