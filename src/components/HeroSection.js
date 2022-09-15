@@ -4,18 +4,18 @@ import { Button } from "./Button";
 import TypedText from "../components/TypedText"
 import "../App.css"
 import "../styles/HeroSection.css"
-import codevideo from "../media/videos/code-video.mp4"
+import codeVideo from "../media/videos/code-video.mp4"
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
-      <video className="hero-video" src={codevideo} autoPlay loop muted />
-      <div className='hero-text'>
+    <div className='heroContainer'>
+      <video className="heroVideo" src={codeVideo} autoPlay loop muted />
+      <div className='heroText'>
         <h1><TypedText textToAnimate={"Hi there! I'm Ali."} /></h1>
         <p>
-          I'm a full-stack web developer. I like working across backend and frontend, and I have experience with React, Node, C#, MongoDB, SQL, AWS, Azure, and more.
+          I'm a full-stack software developer. I like working across backend and frontend, and I have experience with React, Node, C#, MongoDB, SQL, AWS, Azure, and more.
         </p>
-        <div className='hero-btns'>
+        <div className='heroBtns'>
           <Button
             className='btns'
             buttonStyle='btn--outline'

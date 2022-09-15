@@ -12,7 +12,7 @@
   /* flex-direction: column; */
 }
 
-.Navbar .nav-title-desktop {
+.Navbar .navTitleDesktop {
   display: flex;
   align-self: center;
   max-height: 80px;
@@ -24,7 +24,7 @@
   align-items: center;
 }
 
-.Navbar .nav-title-mobile {
+.Navbar .navTitleMobile {
   /* border: 3px solid red; */
   display: flex;
   /* position: absolute; */
@@ -44,7 +44,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .Navbar .nav-title-mobile {
+  .Navbar .navTitleMobile {
     font-size: 25px;
   }
 }
@@ -81,7 +81,7 @@
 } */
 
 /* 
-.Navbar .nav-title-mobile {
+.Navbar .navTitleMobile {
   border: 3px solid red;
   display: flex;
   position: absolute;
@@ -158,7 +158,7 @@
 }
 
 /* @media only screen and (max-width: 880px) { */
-.Navbar #buttonlinks {
+.Navbar #buttonLinks {
   position: absolute;
   left: 0px;
   top: 80px;
@@ -172,7 +172,7 @@
   z-index: 20;
 }
 
-.Navbar #buttonlinks a {
+.Navbar #buttonLinks a {
   margin: 10px;
   font-size: 25px;
   color: white;
@@ -180,7 +180,7 @@
 }
 
 /* @media only screen and (min-width: 880px) { */
-.Navbar .links-desktop a {
+.Navbar .linksDesktop a {
   font-size: 20px;
   text-decoration: none;
   color: black;
@@ -189,11 +189,11 @@
   max-height: 80px;
 }
 
-.Navbar .links-desktop .links a:hover {
+.Navbar .linksDesktop .links a:hover {
   border-bottom: #242424;
 }
 
-.Navbar .links-desktop {
+.Navbar .linksDesktop {
   font-size: 20px;
   font-size: 25px;
   margin-left: 15px;

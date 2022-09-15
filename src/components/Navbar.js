@@ -15,7 +15,7 @@ function Navbar() {
     <div className='Navbar'>
       {/* <div className='leftSide'> */}
         {isPageMobile ? (
-          <div className='button-container'>
+          <div className='buttonContainer'>
             <button
               onClick={() => setShowLinks(!showLinks)}
               // className='burger-button'
@@ -29,7 +29,7 @@ function Navbar() {
 
       <Link
         to='/'
-        className={isPageDesktop ? "nav-title-desktop" : "nav-title-mobile"}
+        className={isPageDesktop ? "navTitleDesktop" : "navTitleMobile"}
       >
         ALISON KILLEN
         <i className='fas fa-laptop-code' />
@@ -38,8 +38,8 @@ function Navbar() {
       <div className='leftSide'>
         <div className='buttonLinksContainer'>
           <div
-            className={isPageDesktop ? "links-desktop" : "links"}
-            id={showLinks ? "buttonlinks" : ""}
+            className={isPageDesktop ? "linksDesktop" : "links"}
+            id={showLinks ? "buttonLinks" : ""}
           >
             <a
               className={

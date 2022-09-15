@@ -30,7 +30,7 @@ function Footer() {
       </section> */}
 
       <div
-        class={isPageDesktop ? "footer-links-desktop" : "footer-links-mobile"}
+        class={isPageDesktop ? "footer-linksDesktop" : "footer-linksMobile"}
       >
         {/* <h2>Some links here</h2> */}
         <Link to='/about'>About</Link>
@@ -46,7 +46,7 @@ function Footer() {
               <i class='fas fa-laptop-code' />
             </Link>
           </div>
-          <small class='website-rights'>© Alison Killen 2021</small>
+          <small class='website-rights'>© Alison Killen 2022</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link twitter'

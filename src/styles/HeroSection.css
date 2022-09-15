@@ -1,5 +1,5 @@
 /* 
-.hero-container {
+.heroContainer {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@
 
 } */
 
-.hero-container {
+.heroContainer {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -34,7 +34,7 @@ video {
   /* overflow: hidden; */
 }
 
-.hero-text {
+.heroText {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,13 +45,13 @@ video {
   border: 5px solid red;
 }
 
-/* .hero-container > h1 {
+/* .heroContainer > h1 {
   color: #fff;
   font-size: 100px;
   margin-top: -100px;
 }
 
-.hero-container > p {
+.heroContainer > p {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
@@ -59,13 +59,13 @@ video {
     "Lucida Sans", Arial, sans-serif;
 } */
 
-.hero-btns {
+.heroBtns {
   margin-top: 32px;
   display: flex;
   border: 5px solid blue;
 }
 
-.hero-btns .btns {
+.heroBtns .btns {
   margin: 6px;
 }
 
@@ -74,19 +74,19 @@ video {
 }
 
 @media screen and (max-width: 960px) {
-  .hero-container > h1 {
+  .heroContainer > h1 {
     font-size: 70px;
     margin-top: -150px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero-container > h1 {
+  .heroContainer > h1 {
     font-size: 50px;
     margin-top: -100px;
   }
 
-  .hero-container > p {
+  .heroContainer > p {
     font-size: 30px;
   }
 

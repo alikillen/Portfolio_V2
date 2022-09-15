@@ -47,7 +47,7 @@
   align-items: center;
 }
 
-.footer-links-mobile {
+.footer-linksMobile {
   width: 100%;
   max-width: 100%;
   display: flex;
@@ -61,7 +61,7 @@
   box-sizing: border-box;
 }
 
-.footer-links-desktop {
+.footer-linksDesktop {
   width: 100%;
   max-width: 100%;
   display: flex;
@@ -69,13 +69,13 @@
   align-items: center;
 }
 
-.footer-links-desktop a {
+.footer-linksDesktop a {
   color: white;
   text-decoration: none;
   padding: 1%;
 }
 
-.footer-links-mobile a {
+.footer-linksMobile a {
   color: white;
   text-decoration: none;
   padding: 1%;
