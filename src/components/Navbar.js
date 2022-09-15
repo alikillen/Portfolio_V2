@@ -61,9 +61,9 @@ function Navbar() {
               className={
                 isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
               }
-              href='/skills'
+              href='/Projects'
             >
-              Skills
+              Projects
             </a>
             <a
               className={
