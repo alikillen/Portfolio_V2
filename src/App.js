@@ -1,10 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar.js";
 import "./App.css";
 // import "./styles/HeroSection.css";
 import Home from "./pages/Home.js";
 import About from "./pages/About.js";
+import Projects from "./pages/Projects"
 import Resume from "./pages/Resume.js";
 import Contact from "./pages/Contact.js";
 import RubyTerminalApp from "./pages/RubyTerminalApp.js";
@@ -20,28 +21,28 @@ import DingoInternship from "./pages/DingoInternship.js";
 
 function App() {
   return (
-    <>
       <Router>
         <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/about' exact component={About} />
-          <Route path='/resume' exact component={Resume} />
-          <Route path='/contact' exact component={Contact} />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/resume' element={<Resume />} />
+          <Route path='/contact' element={<Contact />} />
 
-          <Route path='/DingoInternship' exact component={DingoInternship} />
-          <Route path='/MERNeCommerce' exact component={MERNeCommerce} />
-          <Route path='/CSSArt' exact component={CSSArt} />
-          <Route path='/pixelart' exact component={PixelArt} />
-          <Route path='/javascriptdrumkit' exact component={JavascriptDrumkit} />
-          <Route path='/expresslibroapp' exact component={ExpressLibroApp} />
-          <Route path='/JSHackathon' exact component={JSHackathon} />
-          <Route path='/railsmarketplace' exact component={RailsMarketplace} />
-          <Route path='/portfolioV1' exact component={PortfolioV1} />
-          <Route path='/rubyterminalapp' exact component={RubyTerminalApp} />
-        </Switch>
+          <Route path='/DingoInternship' element={<DingoInternship />} />
+          <Route path='/MERNeCommerce' element={<MERNeCommerce />} />
+          <Route path='/CSSArt' element={<CSSArt />} />
+          <Route path='/pixelart' element={<PixelArt />} />
+          <Route path='/javascriptdrumkit' element={<JavascriptDrumkit />} />
+          <Route path='/expresslibroapp' element={<ExpressLibroApp />} />
+          <Route path='/JSHackathon' element={<JSHackathon />} />
+          <Route path='/railsmarketplace' element={<RailsMarketplace />} />
+          <Route path='/portfolioV1' element={<PortfolioV1 />} />
+          <Route path='/rubyterminalapp' element={<RubyTerminalApp />} />
+        </Routes>
       </Router>
-    </>
+  
   );
 }
 
