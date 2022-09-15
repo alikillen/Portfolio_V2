@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Typist from 'react-typist';
 
-export default class TypedText extends Component {
-
-  render() {
+// todo - pass down textToAnimate using props. avoid using class components
+export default function TypedText(props) {
+    const textToAnimate = props.textToAnimate
     return (
       <Typist>
-        Animate this text.
+        {textToAnimate}
       </Typist>
     );
-  }
+  
 }

@@ -1,19 +1,17 @@
 import React from "react";
 import { Button } from "./Button";
+
+import TypedText from "../components/TypedText"
 import "../App.css"
 import "../styles/HeroSection.css"
 import codevideo from "../media/videos/code-video.mp4"
 
-
-// fix navbar onclick display!
 function HeroSection() {
   return (
     <div className='hero-container'>
-      {/* video content here placeholder - need new video */}
       <video className="hero-video" src={codevideo} autoPlay loop muted />
       <div className='hero-text'>
-        <h1>Hi there</h1>
-        <p>I'm Ali.</p>
+        <h1><TypedText textToAnimate={"Hi there! I'm Ali."} /></h1>
         <p>
           I'm a full-stack web developer. I like working across backend and frontend, and I have experience with React, Node, C#, MongoDB, SQL, AWS, Azure, and more.
         </p>

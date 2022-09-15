@@ -27,17 +27,6 @@ function Navbar() {
           ""
         )}
 
-        {/* <div className='title-container'> */}
-        <Link
-          to='/'
-          className={isPageDesktop ? "nav-title-desktop" : "nav-title-mobile"}
-        >
-          ALISON KILLEN
-          <i className='fas fa-laptop-code' />
-        </Link>
-        {/* </div> */}
-      {/* </div> */}
-
       <Link
         to='/'
         className={isPageDesktop ? "nav-title-desktop" : "nav-title-mobile"}
