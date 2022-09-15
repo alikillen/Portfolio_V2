@@ -33,50 +33,52 @@ function Navbar() {
       </Link>
 
       <div className='leftSide'>
-        <div
-          className={isPageDesktop ? "links-desktop" : "links"}
-          id={showLinks ? "buttonlinks" : ""}
-        >
-          <a
-            className={
-              isPageMobile && !showLinks ? "hide-shop-kit-link" : "links"
-            }
-            href='/'
+        <div className='buttonLinksContainer'>
+          <div
+            className={isPageDesktop ? "links-desktop" : "links"}
+            id={showLinks ? "buttonlinks" : ""}
           >
-            Home
-          </a>
-          <a
-            className={
-              isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
-            }
-            href='/about'
-          >
-            About
-          </a>
-          <a
-            className={
-              isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
-            }
-            href='/skills'
-          >
-            Skills
-          </a>
-          <a
-            className={
-              isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
-            }
-            href='/resume'
-          >
-            Resume
-          </a>
-          <a
-            className={
-              isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
-            }
-            href='/contact'
-          >
-            Contact
-          </a>
+            <a
+              className={
+                isPageMobile && !showLinks ? "hide-shop-kit-link" : "links"
+              }
+              href='/'
+            >
+              Home
+            </a>
+            <a
+              className={
+                isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
+              }
+              href='/about'
+            >
+              About
+            </a>
+            <a
+              className={
+                isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
+              }
+              href='/skills'
+            >
+              Skills
+            </a>
+            <a
+              className={
+                isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
+              }
+              href='/resume'
+            >
+              Resume
+            </a>
+            <a
+              className={
+                isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
+              }
+              href='/contact'
+            >
+              Contact
+            </a>
+          </div>
         </div>
       </div>
     </div>

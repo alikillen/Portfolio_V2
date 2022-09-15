@@ -76,9 +76,9 @@
   border-color: transparent;
 }
 
-.Navbar .leftSide #buttonlinks {
+/* .Navbar .leftSide #buttonlinks {
   display: flex;
-}
+} */
 
 .hide-shop-kit-link {
   display: none;
@@ -104,13 +104,20 @@
   }
 }
 
+.buttonLinksContainer {
+  border: 5px solid yellow;
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+}
+
 /* @media only screen and (max-width: 880px) { */
 .Navbar .leftSide #buttonlinks {
   position: absolute;
   left: 0px;
   top: 80px;
-  height: 130px;
-  max-height: 130px;
+  height: 100%;
+  max-height: 100%;
   width: 100%;
   background-color: rgb(179, 175, 175);
   display: flex;
