@@ -9,12 +9,17 @@ import codeVideo from "../media/videos/code-video.mp4"
 function HeroSection() {
   return (
     <div className='heroContainer'>
-      <video className="heroVideo" src={codeVideo} autoPlay loop muted />
+      <div className='heroVideoOverlay'>
+        <video className="heroVideo" src={codeVideo} autoPlay loop muted />
+     
       <div className='heroText'>
         <h1><TypedText textToAnimate={"Hi there! I'm Ali."} /></h1>
+        <br></br>
         <p>
-          I'm a full-stack software developer. I like working across backend and frontend, and I have experience with React, Node, C#, MongoDB, SQL, AWS, Azure, and more.
+          I'm a full-stack software developer.
         </p>
+        <br></br>
+          <p>I like working across backend and frontend, and I have experience with React, Node, C#, MongoDB, SQL, AWS, Azure, and more.</p>
         <div className='heroBtns'>
           <Button
             className='btns'
@@ -37,7 +42,7 @@ function HeroSection() {
         >
           Some stuff here. <i className="far fa-play-circle" />
         </Button> */}
-      
+      </div>
     </div>
   );
 }
