@@ -5,12 +5,14 @@ import "../App.css";
 import HeroSection from "../components/HeroSection";
 import Cards from "../components/Cards"
 import Footer from "../components/Footer"
+import Skills from "../components/Skills";
 
 
 function Home() {
   return (
     <>
       <HeroSection />
+      <Skills />
       <Cards />
       <Footer />
     </>
