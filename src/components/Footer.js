@@ -6,6 +6,7 @@ import { useMediaQuery } from "../helpers/MediaQueries";
 
 // fix social links, responsive wrapping
 function Footer() {
+  // todo - add more breakpoints
   let isPageDesktop = useMediaQuery("(min-width: 880px)");
   let isPageMobile = useMediaQuery("(max-width: 880px)");
 

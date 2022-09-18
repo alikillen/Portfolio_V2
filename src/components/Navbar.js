@@ -11,6 +11,8 @@ function Navbar() {
 
   const [showLinks, setShowLinks] = useState(false);
 
+  // todo - change about projects contact sections to single page references - use class link
+
   return (
     <div className='Navbar'>
       {/* <div className='leftSide'> */}
