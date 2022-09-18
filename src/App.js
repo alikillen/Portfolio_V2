@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar.js";
+import Footer from "./components/Footer"
 import "./App.css";
 // import "./styles/HeroSection.css";
 import Home from "./pages/Home.js";
@@ -21,6 +22,7 @@ import DingoInternship from "./pages/DingoInternship.js";
 
 function App() {
   return (
+    // todo - change links here to sections?
       <Router>
         <Navbar />
         <Routes>
@@ -41,7 +43,9 @@ function App() {
           <Route path='/portfolioV1' element={<PortfolioV1 />} />
           <Route path='/rubyterminalapp' element={<RubyTerminalApp />} />
         </Routes>
+      <Footer />
       </Router>
+
   
   );
 }
