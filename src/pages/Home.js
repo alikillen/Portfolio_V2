@@ -6,6 +6,9 @@ import HeroSection from "../components/HeroSection";
 import Cards from "../components/Cards"
 import Footer from "../components/Footer"
 import Skills from "../components/Skills";
+import Contact from "../components/Contact"
+import Projects from "../components/Projects";
+import About from "../components/About"
 
 
 function Home() {
@@ -13,8 +16,10 @@ function Home() {
     <>
       <HeroSection />
       <Skills />
+      <Projects />
+      <About />
       <Cards />
-      <Footer />
+      <Contact />
     </>
   );
 }
