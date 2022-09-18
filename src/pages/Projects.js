@@ -5,8 +5,7 @@ function Projects() {
   return (
     <>
       <h1 className='projects'>Projects</h1>
-      <p>some info here about projects I've done</p>
-      <Footer />
+      <p>some more/additional info here about projects I've done</p>
     </>
   );
 }

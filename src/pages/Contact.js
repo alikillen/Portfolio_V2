@@ -10,9 +10,8 @@ function Contact() {
       <h1 className='contact'>Contact</h1>
       <p>Have your people call my people.</p>
 
-      <p>there should probably be a form here...</p>
+      <p>there should probably be a form here...and a back button</p>
     </div>
-    <Footer />
     </>
   );
 }

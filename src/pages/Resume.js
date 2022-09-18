@@ -11,7 +11,6 @@ function Resume() {
 
       <p>there should probably be a pdf resume here...</p>
     </div>
-    <Footer />
     </>
   );
 }
