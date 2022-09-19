@@ -1,0 +1,24 @@
+.projectCardContainer {
+border: 5px solid red;
+}
+
+.projectCardTitle {
+  border: 5px dashed purple;
+
+}
+
+.projectCardText {
+ border: 3px dashed green;
+}
+
+.projectCardImageContainer {
+  border: 3px solid blue;
+}
+
+.projectCardImage {
+ border: 3px solid aqua;
+   display: block;
+  width: 50%;
+  height: 50%;
+}
+

@@ -1,25 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../styles/ProjectCard.css";
 
 function ProjectCard (props) {
   return (
-    <>
-      <li className='cards__item'>
-        <Link className='cards__item__link' to={props.path}>
-          <figure className='cards__item__pic-wrap'>
-            {/* data-category={props.label} */}
-            <img
-              src={props.src}
-              alt='project background'
-              className='cards__item__img'
-            />
-          </figure>
-          <div className='cards__item__info'>
-            <h5 className='cards__item__text'>{props.text}</h5>
-          </div>
-        </Link>
-      </li>
-    </>
+    <div className="projectCardContainer">
+      <div className="projectCardImageContainer">
+        <img
+          src={props.src}
+          alt='imagedescription'
+          className='projectCardImage'
+        />
+      </div>
+      <div className="projectCardTitle">
+        <h2>{props.title}</h2>
+      </div>
+      <div className="projectCardText">
+        <p>{props.text}</p>
+      </div>
+    </div>
   );
 }
 
