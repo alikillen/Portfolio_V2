@@ -18,7 +18,7 @@
 }
 
 .about {
-  background-image: url("./media/Images/code-image2.jpg");
+  background-image: url('./media/Images/code-image2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 }
 
 .resume {
-  background-image: url("./media/Images/code-image3.jpg");
+  background-image: url('./media/Images/code-image3.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@
 }
 
 .contact {
-  background-image: url("./media/Images/code-image4.jpg");
+  background-image: url('./media/Images/code-image4.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,19 +45,18 @@
 }
 
 .projects {
-  background-image: url("./media/Images/code-image3.jpg");
+  background-image: url('./media/Images/code-image3.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-
 }
 
 .heroVideoOverlay {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   /* border: 5px solid orange; */
-   height: 100vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -65,21 +64,17 @@
   align-items: center;
 }
 
-
-
 /* .video {
   max-width: 100%;
   height: 100%;
   
 } */
 
- .heroVideo {
+.heroVideo {
   max-width: 100%;
   height: 100%;
   z-index: -1;
   /* display: flex; */
   /* border: 5px solid purple; */
   overflow: hidden;
-} 
-
-
+}

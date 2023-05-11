@@ -16,7 +16,7 @@ function Navbar() {
   // todo - change about projects contact sections to single page references - use class link
 
   return (
-    <section className='Navbar'>
+    <div className='Navbar'>
       {/* <div className='leftSide'> */}
       {isPageMobile ? (
         <div className='buttonContainer'>
@@ -88,7 +88,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

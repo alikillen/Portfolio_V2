@@ -13,3 +13,13 @@ Initially followed along with this [YouTube Tutorial](https://youtu.be/I2UBjN5ER
 <!-- include features and scope for improvement, tech stack, links to socials etc -->
 
 How to run: npm run start
+
+Todo:
+
+- classnames consistent
+- styling methodology consistent
+- upgrade react/any modules
+- audit npm modules
+- implement react-locomotive-scroll? https://blog.logrocket.com/building-react-portfolio-website-locomotive-scroll?
+- 90s mode vibes
+- resume section like on examples

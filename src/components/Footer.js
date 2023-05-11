@@ -39,7 +39,7 @@ function Footer() {
         <Link to='/resume'>Resume</Link>
         <Link to='/contact'>Contact</Link>
       </div>
-      <section class='social-media'>
+      <div class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
@@ -75,7 +75,7 @@ function Footer() {
             </Link>
           </div>
         </div>
-      </section>
+      </div>
     </section>
   );
 }
