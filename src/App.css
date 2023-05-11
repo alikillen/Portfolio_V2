@@ -7,9 +7,7 @@
 }
 
 .home,
-.about,
-.resume,
-.contact {
+.about {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -19,24 +17,6 @@
 
 .about {
   background-image: url('./media/Images/code-image2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.resume {
-  background-image: url('./media/Images/code-image3.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.contact {
-  background-image: url('./media/Images/code-image4.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

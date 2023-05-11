@@ -12,23 +12,6 @@ function Footer() {
 
   return (
     <section className='footer-container'>
-      {/* <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Placeholder subscription footer heading
-        </p>
-        <p className='footer-subscription-text'>More placeholder text</p>
-        <div className='input-areas'>
-          <form>
-            <input
-              type='email'
-              name='email'
-              placeholder='your email'
-              className='footer-input'
-            />
-            <Button buttonStyle='btn--outline'>Placeholder sub</Button>
-          </form>
-        </div>
-      </section> */}
 
       <div
         class={isPageDesktop ? "footer-linksDesktop" : "footer-linksMobile"}
@@ -36,8 +19,8 @@ function Footer() {
         {/* <h2>Some links here</h2> */}
         <Link to='/about'>About</Link>
         <Link to='/projects'>Projects</Link>
-        <Link to='/resume'>Resume</Link>
-        <Link to='/contact'>Contact</Link>
+        <Link to='#'>Resume</Link>
+        <Link to='#'>Contact</Link>
       </div>
       <div class='social-media'>
         <div class='social-media-wrap'>

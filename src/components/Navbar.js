@@ -73,7 +73,7 @@ function Navbar() {
               className={
                 isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
               }
-              href='/resume'
+              href='#'
             >
               Resume
             </a>
@@ -81,7 +81,7 @@ function Navbar() {
               className={
                 isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
               }
-              href='/contact'
+              href='#'
             >
               Contact
             </a>

@@ -22,4 +22,12 @@ Todo:
 - audit npm modules
 - implement react-locomotive-scroll? https://blog.logrocket.com/building-react-portfolio-website-locomotive-scroll?
 - 90s mode vibes
-- resume section like on examples
+- resume subscrolling section like on examples
+- remove pages links and implement scrolls instead. link to additional info in scroll section
+- github embed?
+- probably dont need a seperate page for all projects
+- fix responsiveness and media queries
+- see trello?
+- cleanup commented code
+- cleanup css files
+- how to handle navigation - from details pages back to 1page

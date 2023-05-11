@@ -19,12 +19,6 @@ import codeImage from "../media/Images/code-image.jpg"
 function ProjectsSection(props) {
   return (
     <section className='projectsContainer'>
-      {/* <h1>My Projects</h1>
-        <div className='projectsText'>
-          <p>--iterate thru project cards here with hover text etc--</p>
-        </div>
-    </div> */}
-
       <ProjectCard
         title="Test Title"
         src={codeImage}

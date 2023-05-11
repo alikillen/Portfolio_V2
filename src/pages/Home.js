@@ -9,6 +9,7 @@ import Skills from "../components/Skills";
 import Contact from "../components/Contact"
 import Projects from "../components/Projects";
 import About from "../components/About"
+import Resume from "../components/Resume"
 
 
 function Home() {
@@ -20,6 +21,7 @@ function Home() {
       <About />
       <Cards />
       <Contact />
+      <Resume />
     </>
   );
 }
