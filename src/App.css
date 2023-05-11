@@ -56,7 +56,7 @@
 
 .heroVideoOverlay {
   background-color: rgba(0,0,0,0.5);
-  border: 5px solid orange;
+  /* border: 5px solid orange; */
    height: 100vh;
   width: 100%;
   display: flex;
@@ -78,7 +78,7 @@
   height: 100%;
   z-index: -1;
   /* display: flex; */
-  border: 5px solid purple;
+  /* border: 5px solid purple; */
   overflow: hidden;
 } 
 

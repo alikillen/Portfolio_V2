@@ -5,6 +5,8 @@ import { useMediaQuery } from "../helpers/MediaQueries";
 import "../App.css";
 import "../styles/Navbar.css";
 
+// do hover text background fill in feature like on SBS
+
 function Navbar() {
   let isPageDesktop = useMediaQuery("(min-width: 880px)");
   let isPageMobile = useMediaQuery("(max-width: 880px)");
@@ -14,20 +16,20 @@ function Navbar() {
   // todo - change about projects contact sections to single page references - use class link
 
   return (
-    <div className='Navbar'>
+    <section className='Navbar'>
       {/* <div className='leftSide'> */}
-        {isPageMobile ? (
-          <div className='buttonContainer'>
-            <button
-              onClick={() => setShowLinks(!showLinks)}
-              // className='burger-button'
-            >
-              <BurgerButton />
-            </button>
-          </div>
-        ) : (
-          ""
-        )}
+      {isPageMobile ? (
+        <div className='buttonContainer'>
+          <button
+            onClick={() => setShowLinks(!showLinks)}
+          // className='burger-button'
+          >
+            <BurgerButton />
+          </button>
+        </div>
+      ) : (
+        ""
+      )}
 
       <Link
         to='/'
@@ -86,7 +88,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -42,7 +42,7 @@ video {
   flex-direction: column;
   position: absolute;
   color: white;
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 
 /* .heroContainer > h1 {
@@ -62,7 +62,7 @@ video {
 .heroBtns {
   margin-top: 32px;
   display: flex;
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
 }
 
 .heroBtns .btns {

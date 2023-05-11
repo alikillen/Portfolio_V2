@@ -6,7 +6,7 @@
 // all single scroll - make this first then add extra pages
 // projects/about have a seperate extra page also
 
- // todo - change about projects contact sections to single page references - use class link
+// todo - change about projects contact sections to single page references - use class link
 //  todo - projects has a seperate page and so does resume and about
 // todo - each project box links to the section on all projects page? 
 
@@ -18,21 +18,21 @@ import codeImage from "../media/Images/code-image.jpg"
 
 function ProjectsSection(props) {
   return (
-      <div className='projectsContainer'>
-        {/* <h1>My Projects</h1>
+    <section className='projectsContainer'>
+      {/* <h1>My Projects</h1>
         <div className='projectsText'>
           <p>--iterate thru project cards here with hover text etc--</p>
         </div>
     </div> */}
 
-        <ProjectCard
-          title="Test Title"
-          src={codeImage}
-          text='Test Text'
-          label='TestProject'
-          path='/Projects'
-        />
-      </div>
+      <ProjectCard
+        title="Test Title"
+        src={codeImage}
+        text='Lorem Ipsum is simply dummy text of the printing and typesetting aset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+        label='TestProject'
+        path='/Projects'
+      />
+    </section>
   );
 }
 

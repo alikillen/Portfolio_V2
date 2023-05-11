@@ -1,24 +1,67 @@
 .projectCardContainer {
-border: 5px solid red;
+  /* border: 5px solid red; */
+  padding: 10px;
+  /* border: 1px solid orange; */
+  /* width: 50%;
+height: 50%; */
+  /* position: relative; */
+  /* width: 50%; */
 }
 
-.projectCardTitle {
-  border: 5px dashed purple;
-
+.projectCardContainer:hover .overlay {
+  opacity: 1;
 }
 
-.projectCardText {
- border: 3px dashed green;
+.projectCardContents {
+  display: flex;
+  /* border: 5px dotted red; */
 }
 
 .projectCardImageContainer {
-  border: 3px solid blue;
-}
-
-.projectCardImage {
- border: 3px solid aqua;
-   display: block;
+  /* border: 3px solid blue; */
   width: 50%;
   height: 50%;
 }
 
+.projectCardImage {
+  /* border: 3px solid aqua; */
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.projectCardTextContainer {
+  /* border: 3px solid green; */
+  width: 50%;
+  height: 50%;
+}
+
+.projectCardOverlay {
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  /* height: 100%;
+  width: 100%;
+  opacity: 80%;
+  transition: .5s ease;
+  background-color: #008CBA; */
+}
+
+.projectCardTitle {
+  border: 5px dashed purple;
+}
+
+.projectCardDescription {
+  border: 3px solid pink;
+  /* color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center; */
+}

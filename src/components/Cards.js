@@ -14,7 +14,7 @@ import codeimage6 from "../media/Images/code-image6.jpg";
 
 function Cards() {
   return (
-    <div className='cards'>
+    <section className='cards'>
       <h1>Stuff I've made</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -85,7 +85,7 @@ function Cards() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

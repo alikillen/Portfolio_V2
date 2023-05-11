@@ -11,7 +11,7 @@ function Footer() {
   let isPageMobile = useMediaQuery("(max-width: 880px)");
 
   return (
-    <div className='footer-container'>
+    <section className='footer-container'>
       {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Placeholder subscription footer heading
@@ -76,7 +76,7 @@ function Footer() {
           </div>
         </div>
       </section>
-    </div>
+    </section>
   );
 }
 
