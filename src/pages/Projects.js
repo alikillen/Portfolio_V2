@@ -1,5 +1,4 @@
 import "../App.css";
-import Footer from "../components/Footer"
 
 function Projects() {
   return (

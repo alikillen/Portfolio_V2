@@ -20,7 +20,7 @@ function ProjectsSection(props) {
   return (
     <section className='projectsContainer'>
       <ProjectCard
-        title="Test Title"
+        title="Alt Projects Section??"
         src={codeImage}
         text='Lorem Ipsum is simply dummy text of the printing and typesetting aset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
         label='TestProject'

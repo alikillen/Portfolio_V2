@@ -14,7 +14,7 @@ import codeimage6 from "../media/Images/code-image6.jpg";
 
 function Cards() {
   return (
-    <section className='cards'>
+    <section className='project-cards'>
       <h1>Stuff I've made</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -49,7 +49,7 @@ function Cards() {
               label='JS Drumkit'
               path='/javascriptdrumkit'
             />
-            <CardItem
+            {/* <CardItem
               src={codeimage6}
               text='Express Hackathon - Libro App'
               label='LibroApp'
@@ -60,7 +60,7 @@ function Cards() {
               text='Javascript Hackathon - WelcomeBoard App'
               label='WelcomeBoard'
               path='/JSHackathon'
-            />
+            /> */}
 
             <CardItem
               src={codeimage3}
