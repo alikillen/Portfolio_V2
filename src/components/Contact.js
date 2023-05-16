@@ -10,7 +10,7 @@ function Contact() {
     return <p>Thanks!</p>;
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} id="contact">
       <label htmlFor="email">
         Email Address
       </label>

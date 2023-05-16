@@ -4,7 +4,7 @@ import "../App.css";
 function Resume() {
   return (
     <>
-      <section>
+      <section id="resume">
         <h1 className='resume'>Resume</h1>
         <p>Read all about it.</p>
 

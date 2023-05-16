@@ -14,7 +14,7 @@ import codeimage6 from "../media/Images/code-image6.jpg";
 
 function Cards() {
   return (
-    <section className='project-cards'>
+    <section className='project-cards' id="projects">
       <h1>Stuff I've made</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>

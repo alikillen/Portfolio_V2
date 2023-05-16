@@ -57,7 +57,7 @@ function Navbar() {
               className={
                 isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
               }
-              href='/about'
+              href='#about'
             >
               About
             </a>
@@ -65,7 +65,7 @@ function Navbar() {
               className={
                 isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
               }
-              href='/Projects'
+              href='#projects'
             >
               Projects
             </a>
@@ -73,7 +73,7 @@ function Navbar() {
               className={
                 isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
               }
-              href='#'
+              href='#resume'
             >
               Resume
             </a>
@@ -81,7 +81,7 @@ function Navbar() {
               className={
                 isPageMobile && !showLinks ? "hide-explore-range-link" : "links"
               }
-              href='#'
+              href='#contact'
             >
               Contact
             </a>

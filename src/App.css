@@ -6,6 +6,10 @@
   font-family: 'Inconsolata', monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .home,
 .about {
   display: flex;

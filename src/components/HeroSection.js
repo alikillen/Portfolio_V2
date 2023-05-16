@@ -8,7 +8,7 @@ import codeVideo from "../media/videos/code-video.mp4"
 
 function HeroSection() {
   return (
-    <section className='heroContainer'>
+    <section className='heroContainer' id="hero-section">
       <div className='heroVideoOverlay'>
         <video className="heroVideo" src={codeVideo} autoPlay loop muted />
 
