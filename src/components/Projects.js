@@ -18,7 +18,7 @@ import codeImage from "../media/Images/code-image.jpg"
 
 function ProjectsSection(props) {
   return (
-    <section className='projectsContainer'>
+    <section className='projects-container'>
       <ProjectCard
         title="Alt Projects Section??"
         src={codeImage}

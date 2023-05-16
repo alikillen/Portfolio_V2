@@ -8,11 +8,11 @@ import codeVideo from "../media/videos/code-video.mp4"
 
 function HeroSection() {
   return (
-    <section className='heroContainer' id="hero-section">
-      <div className='heroVideoOverlay'>
-        <video className="heroVideo" src={codeVideo} autoPlay loop muted />
+    <section className='hero-container' id="hero-section">
+      <div className='hero-video-overlay'>
+        <video className="hero-video" src={codeVideo} autoPlay loop muted />
 
-        <div className='heroText'>
+        <div className='hero-text'>
           <h1><TypedText textToAnimate={"Hi there! I'm Ali."} /></h1>
           <br></br>
           <p>

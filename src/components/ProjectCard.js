@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/ProjectCard.css";
 
-function ProjectCard (props) {
+function ProjectCard(props) {
   return (
     <div className="projectCardContainer">
       <div className="projectCardOverlay">

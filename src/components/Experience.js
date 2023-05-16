@@ -9,7 +9,7 @@ import codeImage from "../media/Images/code-image.jpg"
 
 function Experience(props) {
   return (
-    <section className='projectsContainer' id="experience">
+    <section className='projects-container' id="experience">
       <ProjectCard
         title="Experience"
         src={codeImage}
