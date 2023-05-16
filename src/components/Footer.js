@@ -30,7 +30,7 @@ function Footer() {
               <i class='fas fa-laptop-code' />
             </Link>
           </div>
-          <small class='website-rights'>© Alison Killen 2022</small>
+          <small class='website-rights'>© Alison Killen 2023</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link twitter'

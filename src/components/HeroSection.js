@@ -19,7 +19,7 @@ function HeroSection() {
             I'm a full-stack software developer.
           </p>
           <br></br>
-          <p>I like working across backend and frontend, and I have experience with React, Node, C#, MongoDB, SQL, AWS, Azure, and more.</p>
+          <p>I like working across both the backend and frontend, and I have experience with React, Node, C#, MongoDB, SQL, AWS, Azure, and more.</p>
           <div className='heroBtns'>
             <Button
               className='btns'
