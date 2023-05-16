@@ -4,23 +4,22 @@ import "../styles/Footer.css";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "../helpers/MediaQueries";
 
-// fix social links, responsive wrapping
+// todo - responsive wrapping
 function Footer() {
-  // todo - add more breakpoints
+  // todo - add more breakpoints, do breakpoints better with a framework etc
   let isPageDesktop = useMediaQuery("(min-width: 880px)");
   let isPageMobile = useMediaQuery("(max-width: 880px)");
 
   return (
-    <section className='footer-container'>
+    <section className='footer-container' id="footer">
 
       <div
         class={isPageDesktop ? "footer-linksDesktop" : "footer-linksMobile"}
       >
-        {/* <h2>Some links here</h2> */}
-        <Link to='/about'>About</Link>
-        <Link to='/projects'>Projects</Link>
-        <Link to='#'>Resume</Link>
-        <Link to='#'>Contact</Link>
+        <a href='#about'>About</a>
+        <a href='#projects'>Projects</a>
+        <a href='#resume'>Resume</a>
+        <a href='#contact'>Contact</a>
       </div>
       <div class='social-media'>
         <div class='social-media-wrap'>
@@ -32,30 +31,30 @@ function Footer() {
           </div>
           <small class='website-rights'>© Alison Killen 2023</small>
           <div class='social-icons'>
-            <Link
+            <a
               class='social-icon-link twitter'
-              to='/https://twitter.com/alikillenit'
+              href='https://twitter.com/alikillenit'
               target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter'></i>
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link Linkedin'
-              to='/https://www.linkedin.com/in/alison-killen-she-her-2327a059/'
+              href='https://www.linkedin.com/in/alison-killen-2327a059/'
               target='_blank'
               aria-label='Linkedin'
             >
               <i class='fab fa-linkedin'></i>
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link medium'
-              to='/https://medium.com/@alisoneme1994'
+              href='https://medium.com/@alisoneme1994'
               target='_blank'
               aria-label='Medium'
             >
               <i class='fab fa-medium'></i>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
